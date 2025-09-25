@@ -1,0 +1,117 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #5d9cec, #b8d9ff);
+}
+
+/* Signup Box */
+.container {
+  width: 350px;
+  padding: 30px;
+  background: pink;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+}
+
+/* Input fields */
+.input-box {
+  margin: 12px 0;
+  text-align: left;
+}
+
+.input-box label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px groove #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-box input:focus {
+  border-color: #5d9cec;
+}
+
+/* Gender radio */
+.gender {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  background-color: #4a86d4;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-btn {
+  background: #5d9cec;
+  color: #fff;
+}
+
+.signup-btn:hover {
+  background: #4a86d4;
+}
+
+.cancel-btn {
+  background: #f44336;
+  color: #fff;
+}
+
+.cancel-btn:hover {
+  background: #d63228;
+}
+
+/* Footer link */
+.container p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.container p a {
+  color: #5d9cec;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container p a:hover {
+  text-decoration: underline;
+}
